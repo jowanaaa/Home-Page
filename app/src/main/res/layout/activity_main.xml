@@ -33,7 +33,7 @@
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.219" />
 
-        <ImageView
+        <ImageButton
             android:id="@+id/activitiesImage"
             android:layout_width="0dp"
             android:layout_height="35dp"
@@ -41,6 +41,8 @@
             android:layout_marginTop="95dp"
             android:layout_marginEnd="30dp"
             android:src="@drawable/add"
+            android:scaleType="fitCenter"
+            android:background="?android:attr/selectableItemBackground"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
@@ -85,6 +87,7 @@
             android:orientation="horizontal">
 
             <androidx.cardview.widget.CardView
+                android:id="@+id/cardView4"
                 android:layout_width="150dp"
                 android:layout_height="160dp"
                 android:layout_marginLeft="25dp"
@@ -177,6 +180,7 @@
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
+                android:id="@+id/cardView5"
                 android:layout_width="150dp"
                 android:layout_height="160dp"
                 android:layout_marginRight="10dp"
@@ -280,6 +284,7 @@
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
+                android:id="@+id/cardView6"
                 android:layout_width="150dp"
                 android:layout_height="160dp"
                 android:layout_marginRight="10dp"
@@ -420,6 +425,7 @@
         </LinearLayout>
 
             <androidx.cardview.widget.CardView
+                android:id="@+id/cardView8"
                 android:layout_width="160dp"
                 android:layout_height="170dp"
                 android:layout_marginLeft="15dp"
@@ -538,6 +544,7 @@
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
+                android:id="@+id/total"
                 android:layout_width="150dp"
                 android:layout_height="60dp"
                 android:layout_marginLeft="180dp"
@@ -573,6 +580,7 @@
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
+                android:id="@+id/todo"
                 android:layout_width="150dp"
                 android:layout_height="100dp"
                 android:layout_marginLeft="180dp"
